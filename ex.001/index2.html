@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Básico</title>
+
+    
+
+</head>
+<body>
+    <header><button class="catalogo">HOME</button> <button class="catalogo"><a href="./index.html" class="catalogo">HTML</a></button> <button class="catalogo"><a href="./index2.html" class="catalogo">CSS</a></button class="catalogo"> <button class="catalogo">JS</button></header>
+    <div><!-- stylo-->
+        <h2>Como estilizar seu site</h2>
+        <p>Como dito anteriormente existem 2 formas eficientes de se persolanizar uma página HTML, o <mark>stylo interno e externo</mark>. <br> No stylo interno, você vai personalizar no <mark>Head</mark> dessa forma:  </p>
+
+        <img src="./img/cd-interno.png" alt="codigo">
+
+        <p>Porém essa forma só é eficiente quando seu site só tem uma página. se você for usar mais de uma página no seu site o stylo externo é a melhor opção, você apenas irá linkar o arquivo CSS no Head e pronto!, tudo que você personalizar no CSS estará presente em todas as páginas do seu site.</p> 
+
+        <img src="./img/cd-externo.png" alt="codigo">
+    </div>
+    <div><!-- alinhamento de texto-->
+        <h2>Alinhamento de texto</h2>
+        <p>A tag para alinhamento de texto é <strong>"text-align"</strong> onde você pode usar os seguintes parâmetros: </p>
+
+        <ul>
+            <Li>center</Li>
+            <Li>left</Li>
+            <Li>rigth</Li>
+            <Li>justify</Li>
+            <Li>start</Li>
+            <Li>end</Li>
+        </ul>
+
+        <p class="lista">O <mark>center</mark> centraliza o texto. <br> O <mark>left</mark> alinha o texto na esquerda. <br> O <mark>rigth</mark> alinha o texto na direita. <br> O <mark>justify</mark> justifica o texto. <br> O <mark>start</mark> alinha o texto no começo da página.<br> O <mark>end</mark> alinha o texto no final da página. </p>
+
+        <p>Para usar o alinhamento de texto é simples,você escolhe a tag que quer fazer o alinhamento e escreve entre as <mark>{}</mark> <strong>"text-align"</strong> e escolhe o parâmetro.</p>
+
+        <img src="./img/cd-alinhamento.png" alt="codigo">
+
+        <p>Você pode estilizar varias tags de uma vez só como mostra a imagem a cima, basta apenas adcionalas com o uso de virgula.</p>
+    
+    </div>
+    <div><!-- fontes-->
+        <h2>Fontes</h2>
+
+        <p>De forma resumida você pode importar fontes com a tag <strong>"@font-face"</strong> que vai ser usada para importar sua fonte,você irá se deparar com os seguintes parâmetros, <mark>font-family</mark> e <mark>src: url()</mark> onde o primeiro você nomeia a fonte e no segundo você colcoa sua url, lembrando que toda tag que começa com     <mark>@</mark> tem que vir antes de tudo.</p>
+
+            <img src="./img/cd-font1.png" alt="codigo">
+
+        <p>Já para colocar fontes dentro do style, você vai usar a tag <strong>"font-family"</strong> e colocar o nome da fonte que você importou ou uma nativa do HTML.</p>
+
+        <img src="./img/cd-fonte.png" alt="codigo">
+    </div>
+    
+</body>
+</html>

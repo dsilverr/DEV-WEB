@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Básico</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header><button class="catalogo">HOME</button> <button class="catalogo"><a href="./index.html" class="catalogo">HTML</a></button> <button class="catalogo"><a href="./index2.html" class="catalogo">CSS</a></button class="catalogo"> <button class="catalogo ">JS</button></header>
+    <div> <!-- ex001 -->
+        <h2> hellow world </h2>
+        <p> Meu primeiro documento HTML <br> e esse documento será usado para documentar toda minha tragetória no HTML5 e CSS3!</p> 
+    </div>
+    <div> <!-- ex002-->
+        <h2>Quebra de linha</h2>
+        <p> A quebra de linha pode ser utilizada usando a TAG <strong>"br"</strong><br> como agora </p>
+        <p> O paragráfo pode ser utilizado com a TAG <strong>"p"</strong> já subtitulos <strong>"h1"</strong> que vai do <mark>h1</mark> pro <mark>h6</mark> </p>
+        
+        <img src="./img/codigo-quebra.png" alt="codigo">
+    </div>
+    <div> <!-- ex003-->
+    <h2>Colocando imagens</h2>
+        <img src="./img/html.png" alt="logo html">
+        <img src="./img/css.png" alt="logo css">
+
+        <p> Colocar imagens é facil, basta colcoar a tag <strong>"img"</strong> e lembrar de colocar a imagem no diretório correto, ai basta somente escolher a pasta e o arquivo utilizando o <mark>./</mark>como atalho, a quebra de linha também serve para as imagens. Onde também é possivel usar imagens da internet apenas copiando o endereço da imagem </p>
+
+        <img src="./img/codigo-img.png" alt="codigo">
+
+    </div>
+    <div> <!-- ex004-->
+            <h2>Como colocar Favicon</h2>
+
+            <p>Não existe mistério na hora de colocar o favicon, basta colocar o código <strong>"link:favicon"</strong> e escolher o seu favicon no <mark>href</mark>, lembrando que o favicon fica ná tag <mark>head</mark>.</p>
+
+            <img src="./img/cd-favicon.png" alt="codigo">
+        
+
+    </div>
+    <div> <!-- ex005-->
+        <h2>Negrito e itálico</h2>
+        <p>Para usar o negrito, basta colocar a tag <strong>"strong"</strong> <strong>que você consegue escrever em negrito</strong> já em itálico basta colocar a tag <strong>"em"</strong>,e uma pequena dica, selecione a parte que você quer colocar em itálico pressione CRTL+SHIFT+P,procure por <mark>"wrap with abbreviation"</mark> ou apenas digite <mark>"abb"</mark> , escreva <mark>"em"</mark> e dê enter <em>e assim você vai colocar seu texto em itálico</em> o mesmo serve para colocar em negrito. </p>
+
+        <img src="./img/cd-negrito.png" alt="codigo">   
+    
+        <h2>Tags "obsoletas"</h2>
+        <p>com a mudança do HTML4 pro 5,algumas tags perderam seu "valor", porque deixaram de fazer sentido como por exemplo a tag <mark>"i"</mark> e <mark>"bold"</mark>, que eram usadas para colocar o texto em itálico e em negrito respectivamente hoje não são mais usadas porque alteram a forma do texto que é algo feito pelo CSS, ou seja tudo que alterar sentido é do HTML e o que altera forma é do CSS.</p>
+
+    </div>
+    <div> <!-- ex006-->
+        <h2>Formatação de textos</h2>
+        <p>agora vamos aprender mais algumas Formatações de texto <br> 
+        Para marcar um texto basta usar a tag <mark>"mark"</mark>. <br>
+        Para sublinhar um texto basta usar a tag <ins>"ins"</ins>. <br>
+        Para marcar um texto como excluído basta usar a tag <del>"del"</del>. <br>
+        Para deixar o texto menor se usa a tag <small>"small" </small>. <br>
+        Para colocar alguma letra ou número na parte de cima basta usar a tag <sup>"sup"</sup>. <br>
+        Para colocar alguma letra ou npumero na parte de baixo basta usar a tag <sub>"sub"</sub>. <br>
+         </p>
+
+         <img src="./img/cd-formato.png" alt="codigo">
+    </div>
+    <div> <!-- ex007-->
+        <h2>Citações de códigos</h2>
+        
+        <p>a tag <strong>"code"</strong> juntamente com a tag <strong>"pre"</strong> ,resumidamente serve para você escrever códigos <br>
+        EX <br>
+
+    <pre>
+        <code>
+        x = int(input("escolha um número entre 0 e 10"))
+        if x == 2 :
+            print("você acertou ! ")
+        
+        else:
+            print("você errou ! " )
+        </code>
+    </pre></p>
+    
+    <img src="./img/cd-codigo.png" alt="codigo">
+    <p>Para citações você pode usar 2 tags, que seria a <strong>"q"</strong> e a tag "<strong>blockquote"</strong>, onde a primeira só adciona as aspas ao texto e a segunda permite que você anexe o link da citação com o seguinte comando <strong> blockquote cite= linkdacitação</strong>.</p>
+
+    <h2>abreviações</h2>
+
+    <p>Abreviar também é facil, basta usar o código <strong>"abbr"</strong> ai quando vc passar o mouse por cima da palvra irá aparecer o significado da abreviação, assim : <abbr title="Hypertext Markup Language">HTML </abbr></p>
+
+    <img src="./img/cd-abbr.png" alt="codigo">
+    </div>
+    <div> <!-- ex008-->
+        <h2>Listas</h2>
+
+        <p>Exite 3 tipos de listas no HTML que é a lista ordenada <strong>"ol"</strong>,a lista não ordenada <strong>"ul"</strong>e a lista de definição <strong>"dl"</strong> </p>
+
+        <p>A lista ordenada como o nome já diz, ela faz uma lista ordenando os fatores da lista:</p>
+
+            <ol type="I">                     
+                <li>acordar</li>  
+                <li>estudar</li>
+                <li>trabalhar</li>
+            </ol>                     
+
+            <img src="./img/cd-ol.png" alt="codigo">
+        
+            <p>Você pode personalizar as listas com as seguintes configurações, usando <strong>"type= A"</strong> os números serão substituidos por letras,podendo também ser maiúsculos <mark>"A"</mark> ou minúsculo <mark>"a"</mark>,da mesma forma você consegue alterar por números romanos, usando o <mark>"i"</mark> ou <mark>"I"</mark>.Podendo também ser alterado o começo usando o <strong>"start="2""</strong>.</p>
+
+            <p>As listas não ordenadas, não númeram os itens da lista apenas indicam que é uma lista, podendo também ser personalizada usando <mark>"disc"</mark>, <mark>"square"</mark> e <mark>"circle"</mark>.</p>
+
+            <ul type="square">
+                <li>varrer a casa</li>
+                <li>tomar banho</li>
+                <li>dormir</li>
+            </ul>
+
+            <img src="./img/cd-ul.png" alt="codigo">
+
+            <p>A lista de definição funciona como um dicionário, você usa o <strong>"dl"</strong> para inicar a lista, utilizar o <strong>"dt"</strong> para a <br> definição de termo e o <strong>"dd"</strong> para o detalhe da definição.</p>
+
+            <dl>
+                <dt>Garrafa</dt>
+                    <dd>Objeto usado para armazenar água.</dd>
+            </dl>
+
+            <img src="./img/cd-dl.png" alt="codigo">
+    </div>
+    <div><!-- ex009--> 
+        <h2>Links externos</h2>
+        
+        <p>Os links podem ser adcionados com a tag <strong>"a"</strong> e é bem simples, basta escrever o nome e colocar  o link que quiser, <a href="https://www.cursoemvideo.com" target="_blank" rel="external">Curso em video</a>, lembrando que o link fica na parte <mark>"herf"</mark> e você precisa colocar "<mark>target="_blank"</mark>" que é para que o link não sobreponha o site que está sendo exibido, porém se o link for do seu site basta usar "<mark>target="_self"</mark>" que ao clicar o link vai sobrepor a página.</p>
+
+        <img src="./img/codigo-link.png" alt="codigo">
+    
+    </div>
+    <div><!-- ex010-->
+
+        <h2>Adptar imagem de acordo com o tamanho da tela</h2>
+
+        <p>Vamos aprender a como deixar a imagem dinâmica para que não afete negativamente usuários de outros aparelhos</p>
+
+        <picture>
+            <source media="(max-width: 780px)" srcset="./img/P.png" type="image/png">
+            <source media="(max-width: 1250px)" srcset="./img/M.png" type="image/png">
+            <img src="./img/G.png" alt="imagem grande">
+        </picture>
+
+        <p>Para fazer isso, basta usar a tag <strong>"picture"</strong> e dentro da tag você irá colocar sua imagem,agora vem a parte mais complicada, comece usando a tag <strong>"source:media:type"</strong>, onde você irá mudar o <mark>media</mark> para "max-width" e escolher o tamanho da sua maior foto, no <mark>srcset</mark> você vai adicionar o diretório da imagem e no <mark>type</mark> vai colocar o tipo de imagem que é, png, jpeg, gif, etc.. <br>     Se você	for usar mais de uma imagem remdimensionada é preciso colocar em ordem crescente para que dê certo, caso contrário a imagem menor não irá aparecer se diminuir o tamanho da tela, ex:
+          </p>
+
+          <img src="./img/codigo-ajuste.png" alt="codigo">
+
+    </div>
+    <div><!-- ex011-->
+        <h2>Àudio</h2>
+
+        <p>Para reproduzir áudio basta usar a tag <strong>"audio"</strong>, colocar o diretório e o parâmetro <mark>controls</mark> e o parametro <mark>preload="metadata"</mark> para que o arquivo só comece a carregar quando você der play,desse jeito:</p>
+
+        <audio src="./audio/fundo.mp3" controls preload="metadata"></audio> <br>
+
+        <img src="./img/cd-audio1.png" alt="codigo">
+
+        <p>Algo muito importante em um site é o quão leve ele é, ou seja você precisa colocar arquivos leves para que seu site não seja pesado e o algoritmo possa recomendar o seu site para outras pessoas,e tendo isso em mente como fazer para colocar outros formatos de arquivos? e porque fazer isso ? a resposta é simples, porque alguns navegadores não suportam certos formatos de video ou audio e para isso basta você fazer o seguinte:  </p>
+
+        <audio controls preload="metadata">
+            <source src="./audio/fundo.mp3" type="audio/mpeg">
+            <source src="./audio/fundo.ogg" type="audio/ogg">
+            <source src="./audio/fundo.wav" type="audio/wav">
+                <p>infelizmente o áudio não carregou</p>
+        </audio> <br>
+        
+        <img src="./img/cd-audio2.png" alt="codigo">
+
+    </div>
+    <div><!-- ex012--> 
+    <h2>Videos</h2>
+
+    <p>Adcionar videos no HTML é semelhante ao audio, basta usar a tag <strong>"video"</strong> com os parâmetros <mark>controls</mark> e o <mark>preload</mark> para carregar seu vídeo só quando for clicado.</p>
+
+    <video controls width="560px" height="315" preload="metadata" poster="./img/cd-video.png">
+        <source src="./midia/video.mp4" type="video/mp4">
+        <source src="./midia/video.m4v" type="video/m4v">
+        <source src="./midia/video.webm" type="video/webm">
+        <source src="./midia/video.ogv" type="video/ogv">
+    </video>
+
+    <p>O video funciona assim como o audio, você precisa usar mais de um formato para que todos os navegadores aceitem, existem mais 2 parâmetros utilizados que são o <mark>loop</mark> que serve para reiniciar o video ou audio assim que acabar e o <mark>poster</mark> que serve para você colocar uma capa no seu video.</p>
+
+    <h2>Videos do youtube</h2>
+
+    <p>O youtube é a 2° maior ferramenta de busca, e pensando nisso o youtube tem uma ferramenta para que você possa hospedar o video dele no seu site só copiando o codio que ele lhe entrega, basta você escolher o video clicar em <mark>compartilhar</mark> e em <mark>incorporar</mark> que você irá recever o código do video e agora basta só colar ele no seu index.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7XzZhrtnSog?si=qm1PgCNs5W3U5T4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <p>Onde esse video não vai consumir seus dados, irá consumir os dados do youtube é uma otima sacada para economizar dados e fazer o site ser mais leve.</p>
+
+    <img width="560" src="./img/cd-youtube.png" alt="codigo">
+
+
+    </div>
+    <div><!-- ex013--> 
+    <h2>CSS!</h2>
+
+    <p>Hoje finalmente vamos aprender a estilizar o nosso site, existem 2 formas eficientes de estilizar a pagina com HTML que é o estilo interno e externo. <br> No estilo interno você vai estilizar sua página no <mark>head </mark>normalmente, só que só irá servir para aquela página especifica, EX:</p>
+
+    <img src="./img/cd-css1.png" alt="codigo">
+
+    <p>E a externa, você irá no <mark>head</mark> criar um arquivo <mark>link:css</mark> colocar o cursor em cima do diretório e apertar CRTL+Click ai o proprio VSCode irá lhe direcionar para criar um arquivo CSS.  </p>
+
+    <img src="./img/cd-css2.png" alt="codigo">
+
+    <p>Agora que você esta com seu arquivo CSS em mãos, basta utilizar a regra <mark>@charset "UTF-8"</mark> para que o CSS não de erro por falta de compatibilidade com acentuação.Agora vamos </p>
+
+    <p><strong>O restante do CSS está na aba CSS</strong></p>
+    </div>
+<footer></footer>
+</body>
+</html>

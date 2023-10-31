@@ -1,0 +1,75 @@
+/*Todo @ deve sempre estar no topo do código.
+font : stilo, peso, tamanho, fonte ordem da simplificação de código do font, para não escrever 4 linhas  
+tudo que em HTML é ID em CSS é #
+tudo que em HTML é class em css é .
+# id
+. Classe
+: pseudo-classe
+:: pseudo-elemento
+< filho*/
+@charset "UTF-8";
+
+@font-face {
+    font-family: "pixel";
+    src: url(./fonte/Retro\ Gaming.ttf);
+}
+
+*{
+    font-family: monospace;
+}
+
+.catalogo{
+    background-color: #027100ff;  
+    margin: 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.catalogo:hover{
+    background-color: #025b00ff;
+    transform: scale(1.1);
+}
+
+strong{
+    color: #025b00ff;
+    font-size: 16.5px;
+}
+
+header{
+    background-color: #012500ff;
+    width: 100vw ;  
+    min-height: 30px;
+    margin: 0px;
+}
+
+body{
+    background-color: #0e0e0eff;
+    width: 750px;
+    margin: 0px;
+}
+
+mark{
+    background-color: #027100ff;
+}
+
+img{
+    max-width: 560px;
+}
+
+p, pre, code{
+    text-align: justify;
+    color: white;
+    font-size: 15px; 
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, dl{
+    font-family: pixel;
+    color: #025b00ff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
